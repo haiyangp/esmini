@@ -94,5 +94,6 @@ int main(int argc, char* argv[])
 
     } while (retval == 0 && dist.GetIndex() >= 0 && dist.GetIndex() < static_cast<int>(dist.GetNumPermutations() - 1) && !quit);
 
+
     return retval;
 }
